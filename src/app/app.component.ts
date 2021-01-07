@@ -52,4 +52,15 @@ export class AppComponent {
    }
    this.displayList = matchingSatellites;
  }
+
+ altColor(){
+   let rowIndex = this.sourceList;
+   for(let i=0; i < rowIndex.length; i++){
+     if(i%2 === 0) {
+       return true;
+     } else if (i%2 !==0) {
+      return false;
+     }
+   }
+ }
 }
