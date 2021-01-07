@@ -8,9 +8,11 @@
 }
 
 .alternate {
-    background-color: aquamarine
+    background-color: #dad8d8;
 }
-
+.alternate:nth-child(even){
+    background-color: aquamarine;
+}
 table {
   color: #111;
   border-radius: 5px;
